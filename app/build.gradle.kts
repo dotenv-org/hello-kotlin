@@ -17,6 +17,7 @@ plugins {
 repositories {
     // Use Maven Central for resolving dependencies.
     mavenCentral()
+    maven { url = uri("https://jitpack.io") }
 }
 
 dependencies {
@@ -29,8 +30,8 @@ dependencies {
     // This dependency is used by the application.
     implementation("com.google.guava:guava:31.1-jre")
 
-    // dotenv
-    implementation("io.github.cdimascio:dotenv-kotlin:6.4.1")
+    // dotenv-vault
+    implementation("com.github.dotenv-org:dotenv-vault-kotlin:0.0.2")
 }
 
 // Apply a specific Java toolchain to ease working on different environments.

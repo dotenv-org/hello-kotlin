@@ -3,10 +3,10 @@
  */
 package hello.kotlin
 
-import io.github.cdimascio.dotenv.dotenv
+import org.dotenv.vault.dotenvVault
 
 class App {
-    val dotenv = dotenv()
+    val dotenv = dotenvVault()
     val hello = dotenv["HELLO"]
     val greeting: String
         get() {
