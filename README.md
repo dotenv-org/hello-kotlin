@@ -1,22 +1,12 @@
 # hello-kotlin
 
-Source [https://docs.gradle.org/current/samples/sample_building_kotlin_applications.html](https://docs.gradle.org/current/samples/sample_building_kotlin_applications.html)
+## Usage
 
-```
-mkdir hello-kotlin
-gradle init
+Example code using [dotenv-vault-kotlin](https://github.com/dotenv-org/dotenv-vault-kotlin)
+
+```bash
+cd hello-kotlin
 gradle run
 ```
 
-Add dotenv to `app/build.gradle.kts`
-
-```
-dependencies {
-    ...
-    implementation("io.github.cdimascio:dotenv-kotlin:6.4.1")
-}
-```
-
-```
-gradle run
-```
+This app was created by following this [tutorial](https://docs.gradle.org/current/samples/sample_building_kotlin_applications.html) and then adding [dotenv-vault-kotlin](https://github.com/dotenv-org/dotenv-vault-kotlin).
