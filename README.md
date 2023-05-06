@@ -1,8 +1,8 @@
 # hello-kotlin
 
-## Usage
-
 Example code using [dotenv-vault-kotlin](https://github.com/dotenv-org/dotenv-vault-kotlin)
+
+## Usage
 
 ```bash
 cd hello-kotlin
